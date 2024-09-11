@@ -148,6 +148,12 @@ img {
   gap: 2rem;
 }
 
+#testimonials h2 {
+  width: 55%;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
 #testimonials .testimonials-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
