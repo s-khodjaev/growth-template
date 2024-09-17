@@ -10,6 +10,34 @@
   width: 70%;
 }
 
+.l-heading {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+// Section Header
+
+.section-header {
+  text-align: center;
+}
+
+.section-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.line {
+  width: 200px;
+  height: 1px;
+  background-color: $medium-dark-color;
+}
+
+.text-center {
+  text-align: center;
+  margin: 20px 0;
+}
+
 // Buttons
 
 %btn-shared {

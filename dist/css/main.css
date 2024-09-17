@@ -10,6 +10,32 @@
   width: 70%;
 }
 
+.l-heading {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.line {
+  width: 200px;
+  height: 1px;
+  background-color: #777;
+}
+
+.text-center {
+  text-align: center;
+  margin: 20px 0;
+}
+
 .btn-light, .btn-primary {
   display: inline-block;
   padding: 0.7rem 1.6rem;
@@ -168,4 +194,53 @@ img {
 #testimonials .testimonials-container div h4 {
   margin-top: 30px;
   line-height: 0;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 1rem 4rem;
+}
+.pricing-container div {
+  background-color: #f4f4f4;
+  color: #333;
+  border-radius: 10px;
+  padding: 2.5rem;
+  height: 65vh;
+}
+.pricing-container div:last-child {
+  background-color: #333;
+  color: #fff;
+}
+.pricing-container div > * {
+  margin-bottom: 30px;
+}
+.pricing-container div h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.pricing-container div h3 {
+  font-size: 1.7rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.pricing-container div ul li {
+  margin-bottom: 15px;
+}
+.pricing-container div .btn {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
