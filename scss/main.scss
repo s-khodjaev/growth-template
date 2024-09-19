@@ -129,14 +129,17 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    padding: 1rem 4rem;
+    justify-content: center;
+    align-items: center;
 
     div {
       background-color: $light-color;
       color: #333;
-      border-radius: 10px;
-      padding: 2.5rem;
-      height: 65vh;
+      border-radius: 5px;
+      padding: 2rem;
+      margin: 1rem;
+      height: 70vh;
+      width: 90%;
 
       &:last-child {
         background-color: $dark-color;
@@ -180,5 +183,21 @@ footer {
     gap: 20px;
     justify-content: center;
     align-items: center;
+
+    .form-container {
+      background-color: $light-color;
+      color: $dark-color;
+      padding: 1rem;
+      border-radius: 5px;
+      width: 400px;
+      margin-bottom: 20px;
+
+      input {
+        width: 100%;
+        margin-bottom: 15px;
+        border: 1px solid #eee;
+        padding: 10px;
+      }
+    }
   }
 }
